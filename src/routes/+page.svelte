@@ -10,12 +10,17 @@
 
 <div class="flex min-h-screen flex-col">
 	<Header />
+
 	<main class="flex-auto pt-40 xl:pt-60">
 		<About_Us />
+
 		<Our_Team />
+
 		<Our_Services_Desktop />
+		
 		<Our_Services_Mobile />
 	</main>
+
 	<Fade_In_Out duration={1000} threshold={0.2}>
 		<Footer />
 	</Fade_In_Out>
